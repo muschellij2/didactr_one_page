@@ -1,0 +1,51 @@
+---
+title: "The Automatic Online Course"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The goal of this document is the outline succinctly the requirements to go from materials to a complete online course.  Courses will be deployed on the Leanpub platform (https://leanpub.com/create/course). A much more extensive tutorial will be created for authors. 
+
+## Why use Leanpub?
+
+Leanpub allows courses to be created in simple text and Markdown (https://en.wikipedia.org/wiki/Markdown) with additional teaching features such as quizzes and exercises in Markua (https://leanpub.com/markua/read).  This allows authors:
+
+1.  To create courses without any technical software (just needs a text editor).
+2.  Easily update materials.  This is especially advantageous as technologies change or better methods develop.
+3.  Keep a history (like Git versioning or Dropbox) of changes that can be traced.
+
+## Why not just use Leanpub?
+
+The course allows users to read the materials and take the quizzes.  Prose and free text are not always the best way to learn and most courses teach based on a slide deck.  Thus, most learners have been used to slides.  Moreover, most learners have used online videos (such as YouTube) consistently to learn.
+
+## Why use Google Slides?
+
+For slide decks, we exclusively use Google Slides.  Why use Google Slides?
+
+1.  It can be collaborately edited and shared.
+2.  It has "undo" abilities to go back versions if things have changed.
+3.  PowerPoints can be (relatively) seemlessly converted. 
+
+## Requirements/Inputs
+
+1.  A Google Slide deck corresponding to each chapter/lecture.
+2.  A text file (formatted in markdown/markua) corresponding to each chapter/lecture.  This text file uses only the slides from the slide deck as figures in the text.  Quizzes are located in these files.
+3.  A simple file giving the order of the lectures.
+4.  A text file corresponding to a "script" of words to be spoken over each slide in the slide deck.  The number of paragraphs (no new lines) in the text file must correspond to the number of slides in the slide deck.
+
+## Output/Deliverables
+
+1. A full course on leanpub, rendered.
+2. Rendered videos of the slide deck with corresponding "script" spoken over the slides, using Amazon Polly voices.
+3. Translations of the courses in other languages using Google Translate.  These translations include translating the scripts spoken over the slides and any text inside the slides.
+
+
+
+A sample course (without videos) can be downloaded at: https://github.com/leanpub/sample-course/archive/master.zip.  
+
+
