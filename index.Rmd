@@ -21,7 +21,7 @@ Leanpub allows courses to be created in simple text and Markdown (https://en.wik
 
 ## Why not just use Leanpub?
 
-The course allows users to read the materials and take the quizzes.  Prose and free text are not always the best way to learn and most courses teach based on a slide deck.  Thus, most learners have been used to slides.  Moreover, most learners have used online videos (such as YouTube) consistently to learn.
+The course allows users to read the materials and take the quizzes.  Prose and free text are not always the best way to learn and most courses teach based on a slide deck.  Thus, most learners have been used to slides.  Moreover, most learners have used online videos (such as YouTube) consistently to learn.  It's also pay as you want
 
 ## Why use Google Slides?
 
@@ -33,9 +33,9 @@ For slide decks, we exclusively use Google Slides.  Why use Google Slides?
 
 ## Requirements/Inputs
 
-1.  A Google Slide deck corresponding to each chapter/lecture.
-2.  A text file (formatted in markdown/markua) corresponding to each chapter/lecture.  This text file uses only the slides from the slide deck as figures in the text.  Quizzes are located in these files.
-3.  A simple file giving the order of the lectures.
+1.  A Google Slide deck corresponding to each lesson.
+2.  A text file (formatted in markdown/markua) corresponding to each lesson.  This text file uses only the slides from the slide deck as figures in the text.  Quizzes are located in these files.
+3.  A simple file giving the order of the lessons.
 4.  A text file corresponding to a "script" of words to be spoken over each slide in the slide deck.  The number of paragraphs (no new lines) in the text file must correspond to the number of slides in the slide deck.
 
 ## Output/Deliverables
